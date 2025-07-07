@@ -5,3 +5,9 @@ function ispalindroma(parola){
   const parolainvertita = parolaminuscola.split("").reverse().join("");
   return parolaminuscola === parolainvertita;
 }
+
+if(ispalindroma(parolautente)) {
+  console.log(`La parola ${parolautente} si è palindroma`);
+} else {
+console.log(`La parola ${parolautente} non è palindroma`);
+}
