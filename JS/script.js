@@ -32,5 +32,12 @@ if (numeroutente < 1 || numeroutente > 5 || isNaN(numeroutente)) {
     return numero % 2 === 0;
   }
 
-  
+  const risultatopari = ispari(somma);
+  if(
+    (risultatopari && sceltautente === "pari") || (!risultatopari && sceltautente === "dispari")
+  ){
+    console.log("Hai vinto");
+  } else {
+    console.log("Hai perso");
+  }
 }
