@@ -25,8 +25,8 @@ if (numeroutente < 1 || numeroutente > 5 || isNaN(numeroutente)) {
    return Math.floor(Math.random() * 5) + 1;
   }
 
-  const numerocomputer = numerorandom();
-  console.log(`La somma è ${somma}`);
+  const somma = numeroutente + numeroComputer;
+  console.log(`La somma è: ${somma}`);
 
   function ispari(numero) {
     return numero % 2 === 0;
