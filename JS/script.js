@@ -11,3 +11,8 @@ if(ispalindroma(parolautente)) {
 } else {
 console.log(`La parola ${parolautente} non è palindroma`);
 }
+
+//Pari e Dispari
+
+const sceltautente = prompt("Segli: pari o dispari");
+
